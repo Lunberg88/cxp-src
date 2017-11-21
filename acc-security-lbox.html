@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Account security :: Modal window</title>
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+</head>
+<body class="main">
+<header class="header">
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <div class="navbar-header" style="font-family: 'Open Sans', sans-serif">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="assets/img/logo__.png" height="60" class="img-logo" alt="COIN X PRO">
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <div class="signin-buttons">
+                    <ul class="nav navbar-nav navbar-right header-buttons">
+                        <li><a href="signin.html" class="active">sign in</a></li>
+                        <li><a href="signup.html" class="default">register</a></li>
+                    </ul>
+                </div>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="wrapper">
+        <section class="acc-security">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                        <div class="acc-error-msg">
+                            Please check all checkboxes
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                        <div class="acc-error-info">
+                            <div class="acc-error_img">
+                                <img src="assets/img/acc-error-img.svg" width="120" alt="Alert!">
+                            </div>
+                            <div class="acc-error_text">
+                                Your account security is low
+                            </div>
+                            <hr>
+                            <div class="acc-error_info">
+                                <p><span>We strongly recommended you <a href="#2fa">to enable-Two Factor Authentication (2FA)</a></span></p>
+                                <p>if your email or password are compromiced, it can result in loss of your funds or your personal date. This can be avoided with enable 2FA.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                        <div class="acc-error-checkboxes">
+                            <ul class="list-style">
+                                <li></li>
+                                <li>
+                                    <input type="checkbox" id="chose1" name="chose1[]" checked>
+                                    <label for="chose1">
+                                        <p>Lore ipsum dolor sit amet, ei scripta appareat platonem ius.</p>
+                                        <p>Eam rebum mediocrem at, in qui homero integre. Accusam</p>
+                                        <p>detraxit laboramus at pro, ad usu quas integre theophrastus</p>
+                                    </label>
+                                </li>
+                                <li></li>
+                                <li>
+                                    <input type="checkbox" id="chose2" name="chose1[]" checked>
+                                    <label for="chose2">
+                                        <p>Lore ipsum dolor sit amet, ei scripta appareat platonem ius.</p>
+                                        <p>Eam rebum mediocrem at, in qui homero integre. Accusam</p>
+                                        <p>detraxit laboramus at pro, ad usu quas integre theophrastus</p>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div><!--end wrapper-->
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-12">
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">terms of use</a></li>
+                    <li><a href="#">add coin</a></li>
+                    <li><a href="#">contact us</a></li>
+                    <li><a href="#">faq</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-12">
+                <div class="foot-banner-sm">
+                    <img src="assets/img/footer-baner_small.png" alt="COIN X PRO">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-12">
+                <span class="foot-copyrights">&copy; 2015-2017 coinxpro</span>
+                <div class="chat-modal">
+                    open chat <span class="badge">3</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                        <div class="modal-title-sec">Security</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                        <img src="assets/img/modal_acc-sec-img.svg" width="120" alt="Modal">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                        <div class="modal-sec_title">
+                            Two-Factor Authentication is disabled
+                        </div>
+                        <div class="modal-sec_text">
+                            <p>If your email or password are compromiced, it can result in loss of your funds or your personal data.</p>
+                            <p>This can be avoided with enable 2FA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="#" data-dismiss="modal">I'd like to proceed anyway</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/vendor.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
