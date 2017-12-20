@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <title>Market</title>
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet"> 
+    <style>
+        html, body {
+            width: 1260px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body class="main">
+<header class="header">
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="container dash-navbar">
+        <div class="navbar-header" style="font-family: 'Open Sans', sans-serif">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <img src="assets/img/Logo.png" class="img-logo" alt="CoinHITEX">
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <div class="left-nav-menu">
+                <ul class="nav navbar-nav navbar-left menu-main">
+                    <li><a href="#markets" class="active"><img src="assets/img/img-markets-on.svg" alt="Market"> markets</a></li>
+                    <li><a href="#news"><img src="assets/img/img-list.svg" alt="News"> news</a></li>
+                    <li><a href="#dice"><img src="assets/img/img-bone.svg" alt="Dice"> dice</a></li>
+                </ul>
+            </div>
+            <div class="signin-buttons">
+                <ul class="nav navbar-nav navbar-right acc-links">
+                    <li class="my-acc"><a href="#myaccount">my account<span class="badge">3</span></a></li>
+                    <li class="dropdown">
+                        <a href="#lang-us" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img
+                                src="assets/img/lang-us.png" width="30" alt="U.S. Language"> <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#lang-ru">Ru</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <form action="#" method="POST" name="logout-form">
+                            <a href="#logout"><img src="assets/img/logout-btn.svg" width="45" alt="Logout"></a>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+</header>
+<main>
+<div class="wrapper">
+    <div class="tophead-banner-section">
+        Banner
+    </div>
+    <div class="market-content">
+        <div class="container market-row">
+            <div class="row">
+                <!-- Top head coin-boxes -->
+                <div class="market-top-coin-boxes">
+                    <div class="m-coin-box">
+                        <div class="m-coin-box-left">
+                            <img src="assets/img/coin-box-img4.png" width="50" alt="Currency">
+                        </div>
+                        <div class="m-coin-box-right">
+                            <p><span>BTC_STAR</span></p>
+                            <p>StarCash</p>
+                            <p>0.00000000</p>
+                        </div>
+                    </div>
+                    <div class="m-coin-box">
+                        <div class="m-coin-box-left">
+                            <img src="assets/img/coin-box-img4.png" width="50" alt="Currency">
+                        </div>
+                        <div class="m-coin-box-right">
+                            <p><span>BTC_TAJ</span></p>
+                            <p>StarCash</p>
+                            <p>0.00000000</p>
+                        </div>
+                    </div>
+                    <div class="m-coin-box">
+                        <div class="m-coin-box-left">
+                            <img src="assets/img/coin-box-img4.png" width="50" alt="Currency">
+                        </div>
+                        <div class="m-coin-box-right">
+                            <p><span>BTC_BCCS</span></p>
+                            <p>StarCash</p>
+                            <p>0.00000000</p>
+                        </div>
+                    </div>
+                    <div class="m-coin-box">
+                        <div class="m-coin-box-left">
+                            <img src="assets/img/coin-box-img4.png" width="50" alt="Currency">
+                        </div>
+                        <div class="m-coin-box-right">
+                            <p><span>BTC_STAR</span></p>
+                            <p>StarCash</p>
+                            <p>0.00000000</p>
+                        </div>
+                    </div>
+                    <div class="m-coin-box">
+                        <div class="m-coin-box-left">
+                            <img src="assets/img/coin-box-img4.png" width="50" alt="Currency">
+                        </div>
+                        <div class="m-coin-box-right">
+                            <p><span>BTC_TAJ</span></p>
+                            <p>StarCash</p>
+                            <p>0.00000000</p>
+                        </div>
+                    </div>
+                    <div class="m-coin-box">
+                        <div class="m-coin-box-left">
+                            <img src="assets/img/coin-box-img4.png" width="50" alt="Currency">
+                        </div>
+                        <div class="m-coin-box-right">
+                            <p><span>BTC_BCCS</span></p>
+                            <p>StarCash</p>
+                            <p>0.00000000</p>
+                        </div>
+                    </div>
+
+                    <div class="m-coin-box">
+                        <div class="m-coin-box-left">
+                            <img src="assets/img/coin-box-img4.png" width="50" alt="Currency">
+                        </div>
+                        <div class="m-coin-box-right">
+                            <p><span>BTC_SURGE</span></p>
+                            <p>StarCash</p>
+                            <p>0.00000000</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- //End -->
+            </div>
+            <div class="row">
+                <div class="col-xs-2 col-sm-2 col-md-2">
+                    <!-- Currency select -->
+                    <div class="market-inputs-row">
+                        <span>Markets</span><select name="select-currency" id="sel-curr" class="form-control pull-right">
+                        <option value="1">$ USD</option>
+                        <option value="2">&euro; EUR</option>
+                    </select>
+                    </div>
+                    <!-- //End -->
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6">
+                    <!-- Market search -->
+                    <div class="market-inputs-row">
+                        <form action="#" method="GET"><input type="text" class="form-control" placeholder="Search"></form>
+                    </div>
+                    <!-- //End-->
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4">
+                    <!-- Markets social btn, blog -->
+                    <div class="market-inputs-row pull-right">
+                        <div class="market-social-icons">
+                            <a href="#"><i class="fa fa-facebook"><span class="badge">3</span></i></a>
+                            <a href="#"><i class="fa fa-twitter twt"></i></a>
+                            <a href="#"><i class="fa fa-google-plus ggp"></i></a>
+                            <a href="#"><i class="fa fa-instagram isg"></i></a>
+                        </div>
+                        <div class="market-link-btns">
+                            <a href="#" class="lnk-blog">Blog</a>
+                            <a href="#" class="lnk-support">Support</a>
+                        </div>
+                    </div>
+                    <!-- //End-->
+                </div>
+            </div>
+            <div class="row">
+                <!-- Main market-content -->
+                <div class="col-xs-10 col-sm-10 col-md-10">
+                    <div class="market-main-content">
+                        <!-- Market table -->
+                        <table>
+                            <thead>
+                            <tr>
+                                <th>Market <img src="assets/img/two-arrows-m.svg" height="14" alt="arrows"><img
+                                        src="assets/img/m-tab-caret-down.svg" alt="Sort"></th>
+                                <th>Coin Name <img src="assets/img/two-arrows-m.svg" height="14" alt="arrows"><img
+                                        src="assets/img/m-tab-caret-down.svg" alt="Sort"></th>
+                                <th>Last Price <img src="assets/img/two-arrows-m.svg" height="14" alt="arrows"><img
+                                        src="assets/img/m-tab-caret-down.svg" alt="Sort"></th>
+                                <th>Change <img src="assets/img/two-arrows-m.svg" height="14" alt="arrows"><img
+                                        src="assets/img/m-tab-caret-down.svg" alt="Sort"></th>
+                                <th>24hr Volume <img src="assets/img/two-arrows-m.svg" height="14" alt="arrows"><img
+                                        src="assets/img/m-tab-caret-down.svg" alt="Sort"></th>
+                                <th>24hr High <img src="assets/img/two-arrows-m.svg" height="14" alt="arrows"><img
+                                        src="assets/img/m-tab-caret-down.svg" alt="Sort"></th>
+                                <th>24hr Low <img src="assets/img/two-arrows-m.svg" height="14" alt="arrows"><img
+                                        src="assets/img/m-tab-caret-down.svg" alt="Sort"></th>
+                                <th></th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666000</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0;">&nbsp;</td>
+                            </tr>
+                            <tr class="active">
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666000</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                            <tr>
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666000</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                            <tr class="active">
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666000</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                            <tr>
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666000</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                            <tr class="active">
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666000</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                            <tr>
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666000</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                            <tr class="active">
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666000</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                            <tr>
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666000</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                            <tr class="active">
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666000</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                            <tr>
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666000</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                            <tr class="active">
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666000</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                            <tr>
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666000</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                            <tr class="active">
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666000</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                            <tr>
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666000</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                            <tr class="active">
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666000</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                            <tr>
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666000</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                            <tr class="active">
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666000</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                            <tr>
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666000</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                            <tr class="active">
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666000</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                            <tr>
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666000</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                            <tr class="active">
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666000</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                            <tr>
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666000</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                            <tr class="active">
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666001</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                            <tr>
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666000</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                            <tr class="active">
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666000</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                            <tr>
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666000</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                            <tr class="active">
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666000</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                            <tr>
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666000</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                            <tr class="active">
+                                <td>REC/BTC</td>
+                                <td>Regalcoin</td>
+                                <td>0,00745893</td>
+                                <td>10.27%</td>
+                                <td>707.42145532</td>
+                                <td>0.00752030</td>
+                                <td>0.00666001</td>
+                                <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                            </tr>
+                        </table>
+                            <!--<table class="table table-bordered table-fixed market-tab">
+                                <thead>
+                                <tr>
+                                    <th>Market <img src="assets/img/two-arrows-m.svg" height="14" alt="arrows"><img
+                                            src="assets/img/m-tab-caret-down.svg" alt="Sort"></th>
+                                    <th>Coin Name <img src="assets/img/two-arrows-m.svg" height="14" alt="arrows"><img
+                                            src="assets/img/m-tab-caret-down.svg" alt="Sort"></th>
+                                    <th>Last Price <img src="assets/img/two-arrows-m.svg" height="14" alt="arrows"><img
+                                            src="assets/img/m-tab-caret-down.svg" alt="Sort"></th>
+                                    <th>Change <img src="assets/img/two-arrows-m.svg" height="14" alt="arrows"><img
+                                            src="assets/img/m-tab-caret-down.svg" alt="Sort"></th>
+                                    <th>24hr Volume <img src="assets/img/two-arrows-m.svg" height="14" alt="arrows"><img
+                                            src="assets/img/m-tab-caret-down.svg" alt="Sort"></th>
+                                    <th>24hr High <img src="assets/img/two-arrows-m.svg" height="14" alt="arrows"><img
+                                            src="assets/img/m-tab-caret-down.svg" alt="Sort"></th>
+                                    <th>24hr Low <img src="assets/img/two-arrows-m.svg" height="14" alt="arrows"><img
+                                            src="assets/img/m-tab-caret-down.svg" alt="Sort"></th>
+                                    <th></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>REC/BTC</td>
+                                    <td>Regalcoin</td>
+                                    <td>0,00745893</td>
+                                    <td>10.27%</td>
+                                    <td>707.42145532</td>
+                                    <td>0.00752030</td>
+                                    <td>0.00666000</td>
+                                    <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                                </tr>
+                                <tr class="active">
+                                    <td>REC/BTC</td>
+                                    <td>Regalcoin</td>
+                                    <td>0,00745893</td>
+                                    <td>10.27%</td>
+                                    <td>707.42145532</td>
+                                    <td>0.00752030</td>
+                                    <td>0.00666000</td>
+                                    <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                                </tr>
+                                <tr>
+                                    <td>REC/BTC</td>
+                                    <td>Regalcoin</td>
+                                    <td>0,00745893</td>
+                                    <td>10.27%</td>
+                                    <td>707.42145532</td>
+                                    <td>0.00752030</td>
+                                    <td>0.00666000</td>
+                                    <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                                </tr>
+                                <tr class="active">
+                                    <td>REC/BTC</td>
+                                    <td>Regalcoin</td>
+                                    <td>0,00745893</td>
+                                    <td>10.27%</td>
+                                    <td>707.42145532</td>
+                                    <td>0.00752030</td>
+                                    <td>0.00666000</td>
+                                    <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                                </tr>
+                                <tr>
+                                    <td>REC/BTC</td>
+                                    <td>Regalcoin</td>
+                                    <td>0,00745893</td>
+                                    <td>10.27%</td>
+                                    <td>707.42145532</td>
+                                    <td>0.00752030</td>
+                                    <td>0.00666000</td>
+                                    <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                                </tr>
+                                <tr class="active">
+                                    <td>REC/BTC</td>
+                                    <td>Regalcoin</td>
+                                    <td>0,00745893</td>
+                                    <td>10.27%</td>
+                                    <td>707.42145532</td>
+                                    <td>0.00752030</td>
+                                    <td>0.00666000</td>
+                                    <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                                </tr>
+                                <tr>
+                                    <td>REC/BTC</td>
+                                    <td>Regalcoin</td>
+                                    <td>0,00745893</td>
+                                    <td>10.27%</td>
+                                    <td>707.42145532</td>
+                                    <td>0.00752030</td>
+                                    <td>0.00666000</td>
+                                    <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                                </tr>
+                                <tr class="active">
+                                    <td>REC/BTC</td>
+                                    <td>Regalcoin</td>
+                                    <td>0,00745893</td>
+                                    <td>10.27%</td>
+                                    <td>707.42145532</td>
+                                    <td>0.00752030</td>
+                                    <td>0.00666000</td>
+                                    <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                                </tr>
+                                <tr>
+                                    <td>REC/BTC</td>
+                                    <td>Regalcoin</td>
+                                    <td>0,00745893</td>
+                                    <td>10.27%</td>
+                                    <td>707.42145532</td>
+                                    <td>0.00752030</td>
+                                    <td>0.00666000</td>
+                                    <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                                </tr>
+                                <tr class="active">
+                                    <td>REC/BTC</td>
+                                    <td>Regalcoin</td>
+                                    <td>0,00745893</td>
+                                    <td>10.27%</td>
+                                    <td>707.42145532</td>
+                                    <td>0.00752030</td>
+                                    <td>0.00666000</td>
+                                    <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                                </tr>
+                                <tr>
+                                    <td>REC/BTC</td>
+                                    <td>Regalcoin</td>
+                                    <td>0,00745893</td>
+                                    <td>10.27%</td>
+                                    <td>707.42145532</td>
+                                    <td>0.00752030</td>
+                                    <td>0.00666000</td>
+                                    <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                                </tr>
+                                <tr class="active">
+                                    <td>REC/BTC</td>
+                                    <td>Regalcoin</td>
+                                    <td>0,00745893</td>
+                                    <td>10.27%</td>
+                                    <td>707.42145532</td>
+                                    <td>0.00752030</td>
+                                    <td>0.00666000</td>
+                                    <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                                </tr>
+                                <tr>
+                                    <td>REC/BTC</td>
+                                    <td>Regalcoin</td>
+                                    <td>0,00745893</td>
+                                    <td>10.27%</td>
+                                    <td>707.42145532</td>
+                                    <td>0.00752030</td>
+                                    <td>0.00666000</td>
+                                    <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                                </tr>
+                                <tr class="active">
+                                    <td>REC/BTC</td>
+                                    <td>Regalcoin</td>
+                                    <td>0,00745893</td>
+                                    <td>10.27%</td>
+                                    <td>707.42145532</td>
+                                    <td>0.00752030</td>
+                                    <td>0.00666000</td>
+                                    <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                                </tr>
+                                <tr>
+                                    <td>REC/BTC</td>
+                                    <td>Regalcoin</td>
+                                    <td>0,00745893</td>
+                                    <td>10.27%</td>
+                                    <td>707.42145532</td>
+                                    <td>0.00752030</td>
+                                    <td>0.00666000</td>
+                                    <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                                </tr>
+                                <tr class="active">
+                                    <td>REC/BTC</td>
+                                    <td>Regalcoin</td>
+                                    <td>0,00745893</td>
+                                    <td>10.27%</td>
+                                    <td>707.42145532</td>
+                                    <td>0.00752030</td>
+                                    <td>0.00666000</td>
+                                    <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                                </tr>
+                                <tr>
+                                    <td>REC/BTC</td>
+                                    <td>Regalcoin</td>
+                                    <td>0,00745893</td>
+                                    <td>10.27%</td>
+                                    <td>707.42145532</td>
+                                    <td>0.00752030</td>
+                                    <td>0.00666000</td>
+                                    <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                                </tr>
+                                <tr class="active">
+                                    <td>REC/BTC</td>
+                                    <td>Regalcoin</td>
+                                    <td>0,00745893</td>
+                                    <td>10.27%</td>
+                                    <td>707.42145532</td>
+                                    <td>0.00752030</td>
+                                    <td>0.00666000</td>
+                                    <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                                </tr>
+                                <tr>
+                                    <td>REC/BTC</td>
+                                    <td>Regalcoin</td>
+                                    <td>0,00745893</td>
+                                    <td>10.27%</td>
+                                    <td>707.42145532</td>
+                                    <td>0.00752030</td>
+                                    <td>0.00666000</td>
+                                    <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                                </tr>
+                                <tr class="active">
+                                    <td>REC/BTC</td>
+                                    <td>Regalcoin</td>
+                                    <td>0,00745893</td>
+                                    <td>10.27%</td>
+                                    <td>707.42145532</td>
+                                    <td>0.00752030</td>
+                                    <td>0.00666000</td>
+                                    <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                                </tr>
+                                <tr>
+                                    <td>REC/BTC</td>
+                                    <td>Regalcoin</td>
+                                    <td>0,00745893</td>
+                                    <td>10.27%</td>
+                                    <td>707.42145532</td>
+                                    <td>0.00752030</td>
+                                    <td>0.00666000</td>
+                                    <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                                </tr>
+                                <tr class="active">
+                                    <td>REC/BTC</td>
+                                    <td>Regalcoin</td>
+                                    <td>0,00745893</td>
+                                    <td>10.27%</td>
+                                    <td>707.42145532</td>
+                                    <td>0.00752030</td>
+                                    <td>0.00666000</td>
+                                    <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                                </tr>
+                                <tr>
+                                    <td>REC/BTC</td>
+                                    <td>Regalcoin</td>
+                                    <td>0,00745893</td>
+                                    <td>10.27%</td>
+                                    <td>707.42145532</td>
+                                    <td>0.00752030</td>
+                                    <td>0.00666000</td>
+                                    <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                                </tr>
+                                <tr class="active">
+                                    <td>REC/BTC</td>
+                                    <td>Regalcoin</td>
+                                    <td>0,00745893</td>
+                                    <td>10.27%</td>
+                                    <td>707.42145532</td>
+                                    <td>0.00752030</td>
+                                    <td>0.00666001</td>
+                                    <td><img src="assets/img/market-chart-simg.svg" width="140" height="16" alt="Coins Graphic" style="border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0";></td>
+                                </tr>
+                                </tbody>
+                            </table>-->
+                        <!-- //End -->
+                    </div>
+                </div>
+                <div class="col-xs-2 col-sm-2 col-md-2">
+                    <div class="market-right-col">
+                        <div class="market-right-main-box">
+                            <div class="market-right-thead">
+                                Coming soon
+                            </div>
+                            <div class="market-right-box">
+                                <div class="coin-right-box">
+                                    <div class="box-title">
+                                        StarCash
+                                    </div>
+                                    <div class="box-img">
+                                        <img src="assets/img/coin-box-img3.png" alt="Currency">
+                                    </div>
+                                    <div class="box-text">
+                                        <p>RPT/BTC</p>
+                                        <p>RPT/ETH</p>
+                                    </div>
+                                </div>
+                                <div class="coin-right-box">
+                                    <div class="box-title">
+                                        StarCash
+                                    </div>
+                                    <div class="box-img">
+                                        <img src="assets/img/coin-box-img3.png" alt="Currency">
+                                    </div>
+                                    <div class="box-text">
+                                        <p>RPT/BTC</p>
+                                        <p>RPT/ETH</p>
+                                    </div>
+                                </div>
+                                <div class="coin-right-box">
+                                    <div class="box-title">
+                                        StarCash
+                                    </div>
+                                    <div class="box-img">
+                                        <img src="assets/img/coin-box-img3.png" alt="Currency">
+                                    </div>
+                                    <div class="box-text">
+                                        <p>RPT/BTC</p>
+                                        <p>RPT/ETH</p>
+                                    </div>
+                                </div>
+                                <div class="coin-right-box">
+                                    <div class="box-title">
+                                        StarCash
+                                    </div>
+                                    <div class="box-img">
+                                        <img src="assets/img/coin-box-img3.png" alt="Currency">
+                                    </div>
+                                    <div class="box-text">
+                                        <p>RPT/BTC</p>
+                                        <p>RPT/ETH</p>
+                                    </div>
+                                </div>
+                                <div class="coin-right-box">
+                                    <div class="box-title">
+                                        StarCash
+                                    </div>
+                                    <div class="box-img">
+                                        <img src="assets/img/coin-box-img3.png" alt="Currency">
+                                    </div>
+                                    <div class="box-text">
+                                        <p>RPT/BTC</p>
+                                        <p>RPT/ETH</p>
+                                    </div>
+                                </div>
+                                <div class="coin-right-box">
+                                    <div class="box-title">
+                                        StarCash
+                                    </div>
+                                    <div class="box-img">
+                                        <img src="assets/img/coin-box-img3.png" alt="Currency">
+                                    </div>
+                                    <div class="box-text">
+                                        <p>RPT/BTC</p>
+                                        <p>RPT/ETH</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- //End-->
+            </div>
+        </div>
+    </div>
+</div><!--end wrapper-->
+</main>
+<footer class="footer">
+<div class="container dash-navbar">
+    <div class="row">
+        <div class="col-xs-12 col-md-12">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">privacy policy</a></li>
+                <li><a href="#">terms of use</a></li>
+                <li><a href="#">add coin</a></li>
+                <li><a href="#">contact us</a></li>
+                <li><a href="#">faq</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-md-12">
+            <div class="foot-banner-sm">
+                <img src="assets/img/footer-baner_small.png" alt="COIN X PRO">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-md-12">
+            <span class="foot-copyrights">&copy; 2015-2017 coinxpro</span>
+            <div class="chat-modal">
+                open chat <span class="badge">3</span>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+<script src="js/vendor.js"></script>
+<script src="js/jqs-1.2.1.js"></script>
+<script src="js/jqpl-1.2.6.js"></script>
+<script src="js/jq-tabs.js"></script>
+<script src="js/main.js"></script>
+<script src="js/custom.js"></script>  
+</body>
+</html>
