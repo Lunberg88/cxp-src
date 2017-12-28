@@ -1,13 +1,14 @@
 $(window).load(function(){
     jQuery.noConflict();
     $('#csModal').modal('show');
+
+    $('a[href="#logout"]').click(function(e) {
+        e.preventDefault();
+            $('#myModal-logout').modal('show');
+    });
 });
 
 $(function() {
-    //jQuery.noConflict();
-    //$('#myModal-tfa').modal('show');
-
-
     $( "#tabs" ).tabs();
 
     var sb = $('#sub-menu a');

@@ -2999,3 +2999,20 @@ main {
     bottom: 45% !important;
   }
 }
+
+@media (min-width: 780px) and (max-width: 992px) {
+  .section--header .slider--container .coin--slider {
+    height: auto;
+  }
+  .section--header .slider--container .coin--slider .coin--slider--indicators {
+    bottom: -14%;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  body {
+    width: 768px;
+  }
+  .tfa-dis .rp-info_text .bot_text .group-checkboxes input[type=checkbox]:checked + label:after, .tfa-dis .rp-info_text .bot_text .group-checkboxes input[type=checkbox] + label:after {
+    top: 4px;
+  }
+}
