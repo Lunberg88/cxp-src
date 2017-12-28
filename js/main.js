@@ -1,4 +1,13 @@
+$(window).load(function(){
+    jQuery.noConflict();
+    $('#csModal').modal('show');
+});
+
 $(function() {
+    //jQuery.noConflict();
+    //$('#myModal-tfa').modal('show');
+
+
     $( "#tabs" ).tabs();
 
     var sb = $('#sub-menu a');
@@ -18,6 +27,9 @@ $(function() {
 
     $('#tabvanilla-6 > ul').tabs({ fx: { height: 'toggle', opacity: 'toggle' } });
     $('#featuredvid-6 > ul').tabs();
+
+    $('#tabvanilla-7 > ul').tabs({ fx: { height: 'toggle', opacity: 'toggle' } });
+    $('#featuredvid-7 > ul').tabs();
 
     var imh = $('a[href="#markets"]');
     imh.hover(function() {

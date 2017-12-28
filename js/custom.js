@@ -1,4 +1,5 @@
 $(function() {
+    jQuery.noConflict();
     $('table button').click(function() {
         var curFrame = $(this).attr('data-target');
         if(curFrame != 'stu-frame') {
